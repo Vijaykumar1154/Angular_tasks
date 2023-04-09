@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home | Login Page</title>
+    <link rel="stylesheet" href="page.css">
+    <script src="page.js"></script>
+</head>
+<body>
+    <div id="click" class="slide1">
+        <img src="logo.jpg">
+        <div class="clickme">
+            <button onclick="showpopup()" style="width: 100px; height: 100px; margin-top: 40px; background-color:lightblue;">Click here</button> 
+        </div>
+    </div>
+    <div id="popup" style="display: none;">
+        <div class="slide2">
+            <div class="form">
+                <div class="form_header">
+                    <h2>User details</h2>
+                    <button class="crossmark" onclick="hidepopup()">&times;</button>
+                <div class="form_body">
+                    <label for="firstname">First Name:</label><br>
+                    <input type="text"id="firstname" style="margin-top: 5px; margin-bottom: 5px;" class="field" required><br>
+                    <label for="lastname">Last Name:</label><br>
+                    <input type="text"id="lastname" style="margin-top: 5px; margin-bottom: 5px;" class="field" required><br>
+                    <label for="city">Enter city:</label><br>
+                    <input type="text"id="city" style="margin-top: 5px; margin-bottom: 5px;" class="field" required><br>
+                    <label for="age">Enter Age:</label><br>
+                    <input type="number" id="age" style="margin-top: 5px; margin-bottom: 5px;" class="field" required>
+                    <label for="experience">Experience:</label><br>
+                    <input type="number" id="experience" style="margin-top: 5px; margin-bottom: 5px;" class="field" required><br>
+                    <label for="dob">Date of birth:</label><br>
+                    <input type="date"id="dob"style="margin-top: 5px; margin-bottom: 5px;" class="field" required><br>
+                    <label for="aboutyou">About you:</label><br>
+                    <input type="text" id="aboutyou" style="margin-top: 5px; margin-bottom: 5px; padding-bottom: 50px;" class="field" required><br>
+                    <label for="gender">Gender:</label>
+                     <label><input type="radio" style="margin-top: 5px; margin-bottom: 5px;" name="gender" value="male"> Male</label>
+                     <label><input type="radio" style="margin-top: 5px; margin-bottom: 5px;" name="gender" value="female"> Female</label><br>
+                    <label for="Skills">Skills:</label>
+                     <label><input type="checkbox" style="margin-top: 10px; margin-bottom: 5px;" name="Skills" value="c++"> C++</label>
+                     <label><input type="checkbox" name="Skills" value="Java"> Java</label>
+                     <label><input type="checkbox" name="Skills" value="Python"> Python</label>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>"
+</body>
+</html>
