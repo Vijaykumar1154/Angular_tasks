@@ -1,0 +1,10 @@
+.page_footer{
+    background-color:#2dcc70;
+    position: absolute;
+    top:70%;
+    bottom: 6%;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    height: 174px;
+}
