@@ -12,16 +12,10 @@ span{
     display:flex;
     margin-left: 39%;
 }
-a{
-    background-color: #145369;
-    padding:10px;
-    color: white;
-    border-radius: 20px;
-    text-decoration: none;
+button{
     margin-left: 20px;
-    font-size: large;
 }
-a:hover{
-    cursor: pointer;
+a{
+    text-decoration: none;
 }
 
