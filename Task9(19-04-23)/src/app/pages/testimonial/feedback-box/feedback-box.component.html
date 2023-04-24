@@ -1,9 +1,9 @@
-<div class="feedback-box">
+<div class="feedback-box" >
     <div class="name">
-        {{feedback.name}} says...
+        {{feedback.name | uppercase}} says...
     </div>
     <div class="message">
-        {{feedback.message}}
+        {{feedback.message | quoteit}}
     </div>
     <div class="type">
         {{feedback.type}}

@@ -1,0 +1,38 @@
+.img{
+    background-image: url("http://localhost/backimage.jpg");
+    width: 100%;
+    height: 100%;
+}
+.button1{
+    color:black;
+    background-color: white;
+    font-family: "Roboto";
+    width:150px;
+    height:40px;
+    padding:7px;
+    border-radius: 9px;
+    border-width: 2px;
+    font-size: 20px;
+}
+.title{
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    padding-top:70px;
+    text-align: center;
+    margin-top:0px;
+}
+.para{
+    color:rgb(24, 2, 2);
+    font-size: 20px;
+    color:rgb(18, 3, 3);
+    text-align: center;
+    padding-top:10px;
+
+}
+.buttoncontainer{
+   
+    width:100%;
+    height: 100%;
+    text-align: center;
+}

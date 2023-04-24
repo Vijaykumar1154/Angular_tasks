@@ -1,0 +1,22 @@
+.header{
+    background-image: linear-gradient(to right, #fc7572 , #ff7db8);
+    padding: 20px;
+}
+span{
+    font-size: 25px;
+    font-family: Georgia;
+    padding-left: 15px;
+    margin-right: 68%;
+}
+
+p{
+    padding: 5px;
+    font-size: large;
+    text-align: center;
+}
+
+.button-row{
+    margin-left: 20px;
+}
+
+

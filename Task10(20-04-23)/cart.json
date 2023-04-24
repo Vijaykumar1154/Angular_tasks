@@ -1,0 +1,168 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Samsung Galaxy S21",
+      "price": 799.99,
+      "image": "s21.jpg",
+      "type": "Electronics",
+      "description": "The Samsung Galaxy S21 is a top-of-the-line smartphone with a powerful processor, high-resolution camera, and sleek design.",
+      "color": "Phantom Black",
+      "storage": "128GB"
+    },
+    {
+      "id": 2,
+      "name": "Maybelline Superstay Matte Ink Lipstick",
+      "price": 9.99,
+      "image": "lipstick.jpg",
+      "type": "Cosmetics",
+      "description": "This long-lasting lipstick provides bold color that stays put for up to 16 hours.",
+      "shade": "Pioneer",
+      "finish": "Matte"
+    },
+    {
+      "id": 3,
+      "name": "Organic Bananas",
+      "price": 0.79,
+      "image": "bananas.jpg",
+      "type": "Groceries",
+      "description": "These organic bananas are grown without synthetic fertilizers or pesticides.",
+      "size": "Medium",
+      "ripeness": "Ripe"
+    },
+    {
+      "id": 4,
+      "name": "The Hitchhiker's Guide to the Galaxy",
+      "price": 14.99,
+      "image": "hitchhikers.jpg",
+      "type": "Books",
+      "description": "This classic science fiction novel follows the misadventures of Arthur Dent as he travels the galaxy.",
+      "author": "Douglas Adams",
+      "genre": "Science Fiction"
+    },
+    {
+      "id": 5,
+      "name": "Apple MacBook Air",
+      "price": 999.99,
+      "image": "macbook.jpg",
+      "type": "Electronics",
+      "description": "The MacBook Air is a lightweight and powerful laptop with a Retina display and long battery life.",
+      "color": "Space Gray",
+      "storage": "256GB SSD"
+    },
+    {
+      "id": 6,
+      "name": "L'Oreal Paris Voluminous Mascara",
+      "price": 7.99,
+      "image": "loreal_Voluminous.jpg",
+      "type": "Cosmetics",
+      "description": "This volumizing mascara provides bold lashes with a clump-free formula.",
+      "shade": "Blackest Black",
+      "formula": "Waterproof"
+    },
+    {
+      "id": 7,
+      "name": "Organic Avocado",
+      "price": 1.49,
+      "image": "avocado.jpg",
+      "type": "Groceries",
+      "description": "This organic avocado is packed with healthy fats and essential nutrients.",
+      "size": "Large",
+      "ripeness": "Ripe"
+    },
+    {
+      "id": 8,
+      "name": "iPhone 13",
+      "price": 999,
+      "image": "iphone13.jpg",
+      "type": "Electronics",
+      "description": "The latest iPhone from Apple with a new A15 chip, improved camera system, and longer battery life."
+    },
+    {
+      "id": 9,
+      "name": "L'Oreal Paris Mascara",
+      "price": 12.99,
+      "image": "loreal-mascara.jpg",
+      "type": "Cosmetics",
+      "description": "Get longer, fuller, and bolder lashes with L'Oreal Paris Mascara."
+    },
+    {
+      "id": 10,
+      "name": "Organic Apples",
+      "price": 4.99,
+      "image": "apples.jpg",
+      "type": "Groceries",
+      "description": "Fresh and juicy organic apples picked from local farms."
+    },
+    {
+      "id": 11,
+      "name": "The Great Gatsby",
+      "price": 9.99,
+      "image": "gatsby.jpg",
+      "type": "Books",
+      "description": "A classic novel by F. Scott Fitzgerald that explores themes of love, wealth, and decadence in the Roaring Twenties."
+    },
+    {
+      "id": 12,
+      "name": "Sony WH-1000XM4 Wireless Headphones",
+      "price": 349.99,
+      "image": "headphones.jpg",
+      "type": "Electronics",
+      "brand": "Sony",
+      "color": "Black",
+      "connectivity": "Bluetooth, NFC",
+      "description": "Experience the ultimate noise-canceling headphones with the Sony WH-1000XM4. These headphones have industry-leading noise cancellation, smart listening features, and up to 30 hours of battery life."
+    },
+    {
+      "id": 13,
+      "name": "Clinique Dramatically Different Moisturizing Lotion+",
+      "price": 29.5,
+      "image": "lotion.jpg",
+      "type": "Cosmetics",
+      "brand": "Clinique",
+      "skinType": "Dry to Very Dry",
+      "size": "4.2 oz",
+      "description": "Moisturize dry skin with Clinique's Dramatically Different Moisturizing Lotion+. This lotion is lightweight, absorbs quickly, and provides all-day hydration."
+    },
+    {
+      "id": 14,
+      "name": "Organic Whole Wheat Pasta",
+      "price": 2.99,
+      "image": "pasta.jpg",
+      "type": "Groceries",
+      "brand": "Organic Harvest",
+      "weight": "16 oz",
+      "ingredients": "Organic Whole Wheat Flour, Water",
+      "description": "Enjoy a healthy and delicious meal with Organic Harvest's Whole Wheat Pasta. Made with only two organic ingredients, this pasta is a great source of fiber and nutrients."
+    },
+    {
+      "id": 15,
+      "name": "The Lean Startup",
+      "price": 14.99,
+      "image": "startup.jpg",
+      "type": "Books",
+      "author": "Eric Ries",
+      "publisher": "Currency",
+      "pages": 336,
+      "description": "Learn how to build a successful startup with Eric Ries' The Lean Startup. This book provides a step-by-step guide to developing and launching a new product or service."
+    }
+  ],
+  "enquiries": [
+    {
+      "id": 31,
+      "fname": "Rahul",
+      "lname": "Krishna",
+      "email": "rahul@gmail.com",
+      "company": "Sterling Software",
+      "message": "We have a project to be done we want to talk to you on this aspect could you please let us know when can we have meeting"
+    },
+    {
+      "id": 34555,
+      "fname": "Vijay",
+      "lname": "kumar",
+      "email": "vk123@gmail.com",
+      "company": "Abc pvt lmd",
+      "message": "hello we need product for film and webinar category"
+    }
+  ]
+}

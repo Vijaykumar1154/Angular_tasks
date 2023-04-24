@@ -1,0 +1,35 @@
+  <div class="slidebar">
+  <div class="reading1">
+    <p>{{min | currency:'USD'}}</p>
+  </div>
+
+  <mat-slider class="slider" min="0" max="2000" step="50">
+    <input [(value)]="min" matSliderStartThumb>
+    <input [(value)]="max" matSliderEndThumb>
+  </mat-slider>
+
+   <div class="reading2">
+    <p>{{max  | currency:'USD'}}</p>
+  </div>
+
+  <div class="category">
+      <select [(ngModel)]="selected">
+      <option *ngFor="let x of types">{{x}}</option>
+  </select>
+  </div>
+</div>
+
+<div class="item-box" *ngFor="let x of productlist| typefilter:selected |scroll:min:max">
+        <div class="image-holder">
+            <img src="http://localhost/{{x.image}}">
+        </div>
+        <div class="text-area">
+            <div class="text">
+                {{x.name}}
+            </div>
+            <div class="price">
+               Price: {{x.price | currency:'$'}}
+            </div>
+        </div>
+</div>
+

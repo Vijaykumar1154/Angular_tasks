@@ -1,5 +1,9 @@
 h1{
     margin: 10px;
-    text-align: center;
+    text-align: left;
     font-family: sans-serif;
+    margin-bottom: 10px;
+}
+select{
+    margin-left: 20px;
 }

@@ -1,6 +1,8 @@
 .example-card {
     max-width: 350px;
+    height: 350px;
     float:left;
+    margin:40px;
 
   }
   
